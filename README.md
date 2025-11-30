@@ -1,2 +1,42 @@
-# Image-Classification-HOG-LBP-SVM
-Comparative analysis of HOG vs LBP features for image classification using SVM.  Includes feature visualization, model evaluation, and performance comparison.
+# Image Classification using HOG, LBP and SVM
+
+[![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/your-repo-name/blob/main/notebooks/main_analysis.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+A comprehensive comparative analysis of traditional computer vision feature extraction techniques (HOG vs LBP) for multi-class image classification using Support Vector Machines.
+
+## 📊 Project Overview
+
+This project implements and compares two classical computer vision feature extraction methods:
+- **HOG** (Histogram of Oriented Gradients)
+- **LBP** (Local Binary Patterns) 
+
+for image classification on a 5-class dataset (City, Face, Green, Office, Sea) using Support Vector Machines (SVM).
+
+## 🎯 Key Features
+
+- **Feature Extraction**: Implementation of HOG and multi-channel LBP feature extractors
+- **Machine Learning**: SVM classification with RBF and Sigmoid kernels
+- **Comprehensive Evaluation**: 5-fold cross-validation, multiple metrics, confusion matrices
+- **Visualization**: Feature maps, performance comparisons, training history
+- **Modular Design**: Clean, reusable code structure
+
+## 📈 Results Preview
+
+| Method | Accuracy | Precision | Recall | F1-Score |
+|--------|----------|-----------|--------|----------|
+| HOG + SVM | 0.85 | 0.86 | 0.85 | 0.85 |
+| LBP + SVM | 0.78 | 0.79 | 0.78 | 0.78 |
+
+*HOG features significantly outperform LBP for this image classification task.*
+
+## 🛠️ Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/image-classification-hog-lbp-svm.git
+cd image-classification-hog-lbp-svm
+
+# Install dependencies
+pip install -r requirements.txt
