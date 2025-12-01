@@ -6,6 +6,7 @@
 
 A comprehensive comparative analysis of traditional computer vision feature extraction techniques (HOG vs LBP) for multi-class image classification using Support Vector Machines.
 
+
 ## 📊 Project Overview
 
 This project implements and compares two classical computer vision feature extraction methods:
@@ -35,7 +36,7 @@ for image classification on a 5-class dataset (City, Face, Green, Office, Sea) u
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/image-classification-hog-lbp-svm.git
+git clone https://github.com/salahBerr0/Image-Classification-HOG-LBP-SVM.git
 cd image-classification-hog-lbp-svm
 
 # Install dependencies
