@@ -1,9 +1,5 @@
 # Image Classification using HOG, LBP and SVM
 
-[![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/your-repo-name/blob/main/notebooks/main_analysis.ipynb)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-
 A comprehensive comparative analysis of traditional computer vision feature extraction techniques (HOG vs LBP) for multi-class image classification using Support Vector Machines.
 
 
@@ -39,5 +35,9 @@ for image classification on a 5-class dataset (City, Face, Green, Office, Sea) u
 git clone https://github.com/salahBerr0/Image-Classification-HOG-LBP-SVM.git
 cd image-classification-hog-lbp-svm
 
+#Google Colab code:
+ https://colab.research.google.com/drive/1RCfvZOg7B_wpdObyz-yMnKQv60FEtFja?usp=sharing
+
 # Install dependencies
 pip install -r requirements.txt
+
