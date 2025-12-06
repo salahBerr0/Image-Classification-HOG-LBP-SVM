@@ -1,15 +1,6 @@
-# Image Classification using HOG, LBP and SVM
+# 🖼️ Image Classification: HOG/LBP + SVM Comparison
 
-A comprehensive comparative analysis of traditional computer vision feature extraction techniques (HOG vs LBP) for multi-class image classification using Support Vector Machines.
-
-
-## 📊 Project Overview
-
-This project implements and compares two classical computer vision feature extraction methods:
-- **HOG** (Histogram of Oriented Gradients)
-- **LBP** (Local Binary Patterns) 
-
-for image classification on a 5-class dataset (City, Face, Green, Office, Sea) using Support Vector Machines (SVM).
+A comparative study of traditional computer vision features (HOG vs LBP) with SVM classifier for image classification.
 
 ## 🎯 Key Features
 
@@ -30,14 +21,22 @@ for image classification on a 5-class dataset (City, Face, Green, Office, Sea) u
 
 ## 🛠️ Installation
 
-```bash
-# Clone repository
-git clone https://github.com/salahBerr0/Image-Classification-HOG-LBP-SVM.git
-cd image-classification-hog-lbp-svm
-
-#Google Colab code:
- https://colab.research.google.com/drive/1RCfvZOg7B_wpdObyz-yMnKQv60FEtFja?usp=sharing
-
 # Install dependencies
 pip install -r requirements.txt
 
+### Option 1: Run in Google Colab (Recommended)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]( https://colab.research.google.com/drive/1RCfvZOg7B_wpdObyz-yMnKQv60FEtFja?usp=sharing)
+
+### Option 2: Run Locally
+
+```bash
+# 1. Clone repository
+git clone https://github.com/salahBerr0/Image-Classification-HOG-LBP-SVM.git
+cd IMAGE-CLASSIFICATION-HOG-LBP-SVM
+
+# 2. Download dataset
+python scripts/download_data.py
+# Follow the printed instructions to download from Google Drive
+
+# 3. Run analysis
+jupyter notebook notebooks/main_analysis.ipynb
